@@ -2,34 +2,85 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
 }
 
 header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
     background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 2em;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
-section.destination {
-    margin: 20px;
+.destination-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.destination-card {
+    border: 1px solid rgba(255, 255, 255, 0.8);
     padding: 20px;
-    border: 1px solid #ddd;
-    text-align: center;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
-section.destination img {
-    max-width: 100%;
+.destination-card img {
+    width: 100%;
     height: auto;
 }
 
-footer {
-    background-color: #333;
-    color: white;
+.about-section,
+.contact-section {
     text-align: center;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 50px 0;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px 0;
 }
