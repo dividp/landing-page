@@ -4,34 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Travel Landing Page</title>
+    <title>Your Travel Hub</title>
 </head>
 <body>
-
     <header>
-        <h1>Explore the World</h1>
-        <p>Your next adventure awaits!</p>
+        <div class="logo">
+            <img src="logo.png" alt="Travel Site Logo">
+            <h1>Your Travel Hub</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <section class="destination">
-        <img src="destination-image.jpg" alt="Destination Image">
-        <h2>Paris, France</h2>
-        <p>Discover the romance and beauty of the City of Light.</p>
-        <a href="#explore">Explore</a>
+    <section id="home" class="hero-section">
+        <h2>Explore the World with Us</h2>
+        <p>Discover amazing destinations and plan your next adventure.</p>
+        <a href="#destinations" class="cta-button">Explore Destinations</a>
     </section>
-
-    <section class="destination">
-        <img src="destination-image2.jpg" alt="Destination Image">
-        <h2>Tokyo, Japan</h2>
-        <p>Experience the vibrant culture and futuristic cityscape.</p>
-        <a href="#explore">Explore</a>
+    <section id="destinations" class="destination-section">
+        <h2>Featured Destinations</h2>
+        <div class="destination-card">
+            <img src="destination1.jpg" alt="Destination 1">
+            <h3>Destination 1</h3>
+            <p>Discover the beauty of...</p>
+            <a href="#">Learn More</a>
+        </div>
+        <!-- Add more destination cards as needed -->
     </section>
-
-    <!-- Add more destination sections as needed -->
-
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>We are dedicated to making your travel dreams a reality...</p>
+    </section>
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Reach out to us!</p>
+        <!-- Add a contact form or contact information here -->
+    </section>
     <footer>
-        <p>&copy; 2024 Your Travel Company</p>
+        <p>&copy; 2024 Your Travel Hub. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
